@@ -11,3 +11,4 @@ COPY . /var/www/html/
 
 # Exponemos al puerto 80
 EXPOSE 80
+
