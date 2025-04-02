@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: my-php-app
+    env: docker
+    dockerfilepath: ./dockerfile
+    plan: free
+    branch: main
+    autoDeploy: true
+    
